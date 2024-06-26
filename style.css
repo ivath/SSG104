@@ -116,7 +116,7 @@ header .nav-link.active::before {
 }
 
 .numbers .number_content .number_item {
-  border-bottom: 1px solid red;
+  
   width: 100%;
   margin: 0 35px;
 }
@@ -125,6 +125,8 @@ header .nav-link.active::before {
   font-size: 70px;
   /* width: 100%; */
   text-align: center;
+  border-bottom: 1px solid red;
+
 }
 
 .numbers .number_content h3 {
@@ -134,9 +136,17 @@ header .nav-link.active::before {
   font-weight: 400;
 }
 
-.numbers .number_content p {
+.numbers .number_content {
   color: #888888;
 }
+
+.numbers .number_content .add_content {
+  text-align: center;
+  color: red;
+  font-size: 19px;
+}
+
+
 
 .transmission {
   background-image: url("./image/images\ \(2\).jpeg");
@@ -213,6 +223,16 @@ header .nav-link.active::before {
   height: 90vh;
 
 }
+
+.protect .protect_content h3 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  padding: 7px 10px;
+}
+
+
 
 .protect button {
   position: absolute;
